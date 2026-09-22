@@ -37,7 +37,7 @@ function checkOverlap(newBox, existingBox) {
 function randomPosition(Attempts) {
     
     var RandomX = Math.floor(Math.random() * (ScreenWidth - ImageWidth));
-    var RandomY = Math.floor(Math.random() * ((ScreenHeight - 150) - ImageHeight)) + 50;
+    var RandomY = Math.floor(Math.random() * ((ScreenHeight - 50) - ImageHeight)) + 50;
 
     var Box = {
         left: RandomX,
