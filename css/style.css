@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+    background-color: #121212;
+    position: relative;
+    height: 100vh; /* Make the body take up the full height of the screen */
+}
+
+.random-image {
+    position: absolute; /* This allows us to place them anywhere using top/left */
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease; /* Add a little hover effect */
+}
+
+.random-image:hover {
+    transform: scale(1.1);
+    z-index: 100; /* Bring hovered image to the front */
+}
