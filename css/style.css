@@ -8,8 +8,8 @@ body {
 
 .random-image {
     position: absolute; /* This allows us to place them anywhere using top/left */
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     transition: transform 0.3s ease; /* Add a little hover effect */
