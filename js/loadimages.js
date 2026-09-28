@@ -10,8 +10,8 @@ const ImagesToLoad = 4;
 const ScreenWidth = window.innerWidth;
 const ScreenHeight = window.innerHeight;
 
-const ImageWidth = 200;
-const ImageHeight = 150;
+const ImageWidth = 300;
+const ImageHeight = 200;
 
 const ImagesCount = {
     "Animals": 42,
